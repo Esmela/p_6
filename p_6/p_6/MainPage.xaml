@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:p_6"
+             x:Class="p_6.MainPage">
+    <ContentPage >
+        <ScrollView VerticalOptions="Center" HorizontalOptions="Center">
+            <StackLayout>
+                <Image x:Name="img1" Source="https://lamenteesmaravillosa.com/wp-content/uploads/2015/06/Atrapasuen%CC%83os.jpg"/>            
+                <Button x:Name="btn1" Text="Like" Clicked="btn1_Clicked"/>
+                
+            </StackLayout>
+        </ScrollView>       
+    </ContentPage>
+    <ContentPage >
+        <ScrollView VerticalOptions="Center" HorizontalOptions="Center">
+            <StackLayout>
+                <Image x:Name="img2" Source="https://t2.uc.ltmcdn.com/images/5/2/6/img_40625_ins_3735202_600.jpg"/>
+                <Button x:Name="btn2" Text="Like" Clicked="btn2_Clicked"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+    <ContentPage >
+        <ScrollView VerticalOptions="Center" HorizontalOptions="Center">
+            <StackLayout>
+                <Image x:Name="img3" Source="http://udo.mx/aspirante/images/showcase/Sistemas.png"/>
+                <Button x:Name="btn3" Text="Like" Clicked="btn3_Clicked"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+    <ContentPage >
+        <ScrollView VerticalOptions="Center" HorizontalOptions="Center">
+            <StackLayout>
+                <Image x:Name="img4" Source="http://english-spanishtranslator.com/wp-content/uploads/2016/12/968d9bc8aa2a217712141ba0085ae8c3.jpg"/>
+                <Button x:Name="btn4" Text="Like" Clicked="btn4_Clicked"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+    <ContentPage >
+        <ScrollView VerticalOptions="Center" HorizontalOptions="Center">
+            <StackLayout>
+                <Image x:Name="img5" Source="http://www.diariodf.mx/wp-content/uploads/2015/06/245694.jpg"/>
+                <Button x:Name="btn5" Text="Like" Clicked="btn5_Clicked"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+    <ContentPage >
+        <ScrollView VerticalOptions="Center" HorizontalOptions="Center">
+            <StackLayout>
+                <Image x:Name="img6" Source="http://www.diariodf.mx/wp-content/uploads/2015/06/245694.jpg"/>
+                <Button x:Name="btn6" Text="Like" Clicked="btn6_Clicked"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+    <ContentPage >
+        <ScrollView VerticalOptions="Center" HorizontalOptions="Center">
+            <StackLayout>
+                <Image x:Name="img7" Source="http://www.florespedia.com/Imagenes/flores-bonitas.jpg"/>
+                <Button x:Name="btn7" Text="Like" Clicked="btn7_Clicked"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+    <ContentPage >
+        <ScrollView VerticalOptions="Center" HorizontalOptions="Center">
+            <StackLayout>
+                <Image x:Name="img8" Source="http://www.florespedia.com/Imagenes/flores-hermosas-dalias.jpg"/>
+                <Button x:Name="btn8" Text="Like" Clicked="btn8_Clicked"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+    <ContentPage >
+        <ScrollView VerticalOptions="Center" HorizontalOptions="Center">
+            <StackLayout>
+                <Image x:Name="img9" Source="http://proyectosyredes.info/assets/images/accesscontrol.jpg"/>
+                <Button x:Name="btn9" Text="Like" Clicked="btn9_Clicked"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+    <ContentPage>
+        <StackLayout  HorizontalOptions="Center">
+            <Label Text="Likes Obtenidos:" x:Name="lbl1"/>
+            <Button Text="Obtener" Clicked="btn1_Clicked_1" x:Name="btnR"/>
+        </StackLayout>
+    </ContentPage>
+
+</CarouselPage>
